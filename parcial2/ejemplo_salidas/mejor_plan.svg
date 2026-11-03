@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="326">
+<rect width="100%" height="100%" fill="white"/>
+<text x="10" y="26" font-size="16" font-weight="bold">Gantt del plan óptimo #1: A-B-C-D</text>
+<text x="10" y="46" font-size="13">Duración total: 10, penalización: 4</text>
+<line x1="70" y1="84" x2="70" y2="266" stroke="#cccccc"/>
+<text x="70" y="78" font-size="12" text-anchor="middle">0</text>
+<line x1="130" y1="84" x2="130" y2="266" stroke="#cccccc"/>
+<text x="130" y="78" font-size="12" text-anchor="middle">1</text>
+<line x1="190" y1="84" x2="190" y2="266" stroke="#cccccc"/>
+<text x="190" y="78" font-size="12" text-anchor="middle">2</text>
+<line x1="250" y1="84" x2="250" y2="266" stroke="#cccccc"/>
+<text x="250" y="78" font-size="12" text-anchor="middle">3</text>
+<line x1="310" y1="84" x2="310" y2="266" stroke="#cccccc"/>
+<text x="310" y="78" font-size="12" text-anchor="middle">4</text>
+<line x1="370" y1="84" x2="370" y2="266" stroke="#cccccc"/>
+<text x="370" y="78" font-size="12" text-anchor="middle">5</text>
+<line x1="430" y1="84" x2="430" y2="266" stroke="#cccccc"/>
+<text x="430" y="78" font-size="12" text-anchor="middle">6</text>
+<line x1="490" y1="84" x2="490" y2="266" stroke="#cccccc"/>
+<text x="490" y="78" font-size="12" text-anchor="middle">7</text>
+<line x1="550" y1="84" x2="550" y2="266" stroke="#cccccc"/>
+<text x="550" y="78" font-size="12" text-anchor="middle">8</text>
+<line x1="610" y1="84" x2="610" y2="266" stroke="#cccccc"/>
+<text x="610" y="78" font-size="12" text-anchor="middle">9</text>
+<line x1="670" y1="84" x2="670" y2="266" stroke="#cccccc"/>
+<text x="670" y="78" font-size="12" text-anchor="middle">10</text>
+<text x="10" y="116" font-size="14" font-weight="bold">A</text>
+<rect x="70" y="98" width="180" height="26" fill="#2e9e5b" stroke="#333333"/>
+<text x="258" y="116" font-size="12">inicio 0, fin 3, plazo 4 (a tiempo)</text>
+<line x1="310" y1="92" x2="310" y2="130" stroke="#111111" stroke-width="2" stroke-dasharray="4 2"/>
+<text x="10" y="160" font-size="14" font-weight="bold">B</text>
+<rect x="250" y="142" width="120" height="26" fill="#2e9e5b" stroke="#333333"/>
+<text x="378" y="160" font-size="12">inicio 3, fin 5, plazo 5 (a tiempo)</text>
+<line x1="370" y1="136" x2="370" y2="174" stroke="#111111" stroke-width="2" stroke-dasharray="4 2"/>
+<text x="10" y="204" font-size="14" font-weight="bold">C</text>
+<rect x="370" y="186" width="240" height="26" fill="#e0572f" stroke="#333333"/>
+<text x="618" y="204" font-size="12">inicio 5, fin 9, plazo 6 (tarde +3)</text>
+<line x1="430" y1="180" x2="430" y2="218" stroke="#111111" stroke-width="2" stroke-dasharray="4 2"/>
+<text x="10" y="248" font-size="14" font-weight="bold">D</text>
+<rect x="610" y="230" width="60" height="26" fill="#e0572f" stroke="#333333"/>
+<text x="678" y="248" font-size="12">inicio 9, fin 10, plazo 9 (tarde +1)</text>
+<line x1="610" y1="224" x2="610" y2="262" stroke="#111111" stroke-width="2" stroke-dasharray="4 2"/>
+<rect x="70" y="286" width="18" height="14" fill="#2e9e5b" stroke="#333333"/>
+<text x="96" y="298" font-size="12">A tiempo</text>
+<rect x="190" y="286" width="18" height="14" fill="#e0572f" stroke="#333333"/>
+<text x="216" y="298" font-size="12">Fuera de plazo</text>
+<line x1="350" y1="286" x2="350" y2="300" stroke="#111111" stroke-width="2" stroke-dasharray="4 2"/>
+<text x="358" y="298" font-size="12">Plazo de la tarea</text>
+</svg>

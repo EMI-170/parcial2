@@ -1,0 +1,5 @@
+Total de planes: 2
+Tiempo total del proyecto: 10
+Penalización mínima: 4
+Planes óptimos (1):
+  Plan 1: A-B-C-D

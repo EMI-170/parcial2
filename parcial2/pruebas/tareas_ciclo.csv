@@ -1,0 +1,9 @@
+# Dos ciclos independientes y dos ciclos que comparten nodos
+A;1;5;C
+B;1;5;A
+C;1;5;B
+D;1;5;E
+E;1;5;D
+X;1;5;Y|Z
+Y;1;5;X
+Z;1;5;X

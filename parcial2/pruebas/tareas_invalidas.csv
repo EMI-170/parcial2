@@ -1,0 +1,12 @@
+# Archivo con errores variados (las líneas físicas cuentan comentarios y vacíos)
+A;3;4;-
+B;0;5;A
+
+C;x;6;A
+D;1;-2;B|C
+A;2;3;-
+E;1;5;E
+F;1;5;B|B
+G;1;5;Z
+H;1;5
+I;1;5;

@@ -1,0 +1,19 @@
+Línea 2 | 3;2;(()()) | VÁLIDA
+Línea 3 | 3;2;((())) | INVÁLIDA
+    - excede p = 2: primer prefijo "(((" (posición 3, profundidad 3)
+Línea 4 | 3;2;())(() | INVÁLIDA
+    - cierra más de lo abierto: primer prefijo "())" (posición 3, profundidad máxima alcanzada 1)
+Línea 6 | 3;2;()()() | VÁLIDA
+Línea 7 | 2;1;(a) | INVÁLIDA
+    - carácter 'a' en la posición 2 (solo se permiten '(' y ')')
+    - longitud 3, se esperaba 2n = 4
+Línea 8 | 3;2;(() | INVÁLIDA
+    - longitud 3, se esperaba 2n = 6
+    - balance final 1, debe ser 0
+Línea 9 | 2;2;)( | INVÁLIDA
+    - cierra más de lo abierto: primer prefijo ")" (posición 1, profundidad máxima alcanzada 0)
+    - longitud 2, se esperaba 2n = 4
+Línea 10 | abc | INVÁLIDA
+    - se esperaba n;p;cadena con n >= 1 y p >= 1
+Línea 11 | 0;1; | INVÁLIDA
+    - se esperaba n;p;cadena con n >= 1 y p >= 1
